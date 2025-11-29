@@ -61,7 +61,7 @@ unsigned int keyboard_getc(void) {
  * For any character that cannot be mapped, KEY_NULL should be returned.
  *
  * If *all* of the status keys defined in KEY_KERNEL_DEBUG are pressed,
- * while another character is entered, the kernel_debug_command()
+ * while another character is entered, the kernel_command()
  * function should be called.
  */
 unsigned int keyboard_decode(unsigned int c) {
